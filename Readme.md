@@ -31,17 +31,9 @@ git clone <repo-url>
 cd <repo-folder>
 npm install
 Add your API key in index.js:
+```
 
-javascript
+```javascript
 Copy code
 const ai = new GoogleGenAI({ apiKey: "YOUR_API_KEY_HERE" });
-Usage
-bash
-Copy code
-node index.js
-Type your request, e.g.:
-
-css
-Copy code
-Create a calculator website
-The agent will create the project folder, files, populate them, and validate content.
+```
